@@ -52,52 +52,55 @@
                 <!-- <img src="./assets/img/img-right.jpg" alt="Photo of a person running along the riverbank and passing under a bridge"> -->
             </div>
         </section>
-        <section class="form-container">
-            <h4>Get in touch</h4>
-            <form class="grid-form">
-                <label for="name">Name :</label>
-                <input type="text" id="name" name="name">
-                
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email">
-                
-                <label for="message">Message :</label>
-                <textarea id="message" name="message"></textarea>
-                
-                <button type="submit">SEND MESSAGE</button>
-              </form>
-        </section>
+        <section class="contact">
+            <h2>Get in touch</h2>
+            <form method="post" action="#">
+              <div class="form-grid">
+                <div>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input type="text" id="email" />
+                </div>
+                <div class="textarea">
+                  <label for="message">Message</label>
+                  <textarea id="message"></textarea>
+                </div>
+              </div>
+              <input type="submit" class="button" value="Send Message" />
+            </form>
+          </section>
     </main>
     <footer>
-        <div class="social-icons">
-            <ul>
-                <li>
-                    <a href="#">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-regular fa-envelope"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <ul>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-envelope"></i>
+              </a>
+            </li>
+        </ul>
     </footer>
     
 </body>
